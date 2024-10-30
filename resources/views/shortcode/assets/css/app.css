@@ -1,0 +1,62 @@
+@import 'auth-popup.css';
+@import 'recharge-form.css';
+
+/** Buttons **/
+.mp-front-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #CCC;
+	color: #000;
+	margin: 0;
+	transition: all 150ms ease-in-out;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    outline: none;
+    padding: 0.76rem 1rem;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+.mp-front-button.mp-front-button--primary {
+	width: 100%;
+	background: linear-gradient(60deg,#ab47bc,#8e24aa);
+	color: #fff;
+}
+.mp-front-button:hover,
+.mp-front-button:focus {
+	background: rgba(0,0,0,0.5);
+	color: #CCC;
+}
+.mp-front-button[disabled] {
+	cursor: not-allowed;
+}
+.mp-front-button.mp-front-button--primary:hover,
+.mp-front-button.mp-front-button--primary:active {
+	background: linear-gradient(60deg,#8e24aa, #ab47bc);
+}
+
+/** Wall Blocks **/
+.mp-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mp-block__error {
+	color: #FFF;
+	padding: 10px 20px;
+	background: firebrick;
+	border: 2px dashed #FFF;
+}
+.is-loading {
+	width: 25px;
+	height: 25px;
+	display: block;
+	margin-left: 20px;
+	background-size: contain;
+	background-image: url('../../../../../framework/assets/images/loader.svg');
+}

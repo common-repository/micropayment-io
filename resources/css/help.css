@@ -1,0 +1,14 @@
+.billingfox-help-shortcode {
+  margin-bottom: 30px; }
+  .billingfox-help-shortcode table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse; }
+    .billingfox-help-shortcode table td {
+      vertical-align: top;
+      border: 1px solid #ccc;
+      padding: 5px; }
+      .billingfox-help-shortcode table td .list {
+        padding-left: 26px;
+        list-style-type: disc;
+        margin: 0; }

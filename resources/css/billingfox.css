@@ -1,0 +1,19 @@
+.billingfox .block,
+.billingfox .page {
+  background: repeating-linear-gradient(-45deg, #ffdfe3, #ffdfe3 10px, #ffccd1 10px, #ffccd1 20px);
+  border: 10px solid #ffccd1;
+  text-align: center;
+  padding: 20px; }
+  .billingfox .block h2,
+  .billingfox .page h2 {
+    color: #333;
+    font-size: 2em; }
+  .billingfox .block form,
+  .billingfox .page form {
+    margin: 0; }
+  .billingfox .block a.recharge,
+  .billingfox .page a.recharge {
+    display: block;
+    text-decoration: underline;
+    color: #333;
+    box-shadow: none; }
